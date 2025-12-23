@@ -1,0 +1,27 @@
+{
+    "folders": [
+        {
+            "name": "TD Python",
+            "path": "../TouchDesigner/td-python",
+            "cwd": "${workspaceFolder}",
+        },
+    ],
+    "settings": {
+        "files.exclude": {
+            "project.toe": true
+        },
+        "python.analysis.autoSearchPaths": true,
+        "python.autoComplete.extraPaths": [
+            "../TouchDesigner/td-python",
+            "../TouchDesigner/ext-python/.venv/Lib/site-packages",
+            "../TouchDesigner/ext-python/.venv/lib/python3.11/site-packages",
+        ],
+        "python.analysis.extraPaths": [
+            "../TouchDesigner/td-python",
+            "../TouchDesigner/ext-python/.venv/Lib/site-packages",
+            "../TouchDesigner/ext-python/.venv/lib/python3.11/site-packages",
+        ],
+        "python.defaultInterpreterPath": "C:/Program Files/Derivative/TouchDesigner.2025.32050/bin/python.exe",
+        "workbench.colorTheme": "Default Dark Modern",
+    },
+}

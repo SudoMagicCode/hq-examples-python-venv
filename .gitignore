@@ -52,7 +52,7 @@ import sys
 external_python:str = f"{project.folder}/ext-python/.venv/Lib/site-packages"
 
 
-def check_path() -> None:
+def check_path():
     show_path_contents()
     print("\n")
 
@@ -63,7 +63,7 @@ def check_path() -> None:
         print("updated path contents")
         show_path_contents()
     
-def show_path_contents() -> None:
+def show_path_contents():
     print("current dirs on path -----")
     for each in sys.path:
         print(each)
@@ -77,9 +77,3 @@ We can test that this has all worked correctly by importing the library we insta
 ![](readme-assets/td-terminal-01.png)
 
 ### Operation
-
-### Considerations
-
-It's worth remembering that anything in our `.venv` folder should not be committed to a repo. This is a local cache of the libraries that exist somewhere else that we're using for this project. Because of that whenever we clone a project we need ensure that we go through the steps of initializing the virtual environment that are laid out above.
-
-Initialization order matters - meaning that you may need to force cook an op that has an import from an external library. You'll only see this on complete restarts, so it's worth saving some time to do several complete restarts to track down all of the nitty gritty for your start-up order an considerations.
