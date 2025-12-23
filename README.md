@@ -10,7 +10,7 @@ This repository is a collection of utilities intended to assist in managing prom
 
 Project code can be found at:
 
-`src/td-img-gen-previz/TouchDesigner`
+`TouchDesigner/`
 
 **Requirements**
 
