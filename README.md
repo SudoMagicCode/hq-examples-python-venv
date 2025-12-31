@@ -1,6 +1,6 @@
 # TouchDesigner Virtual Environment Example
 
-This repository is a collection of utilities intended to assist in managing prompt development. Each section below outlines the intention, behavior, configuration, and operation of each utility.
+This repository is an example of how you can set-up a TouchDesigner virutal environment yourself.
 
 ## Required Tools
 
